@@ -29,19 +29,25 @@ padding-bottom: 10px;
     color: black;
 }
 .match-box{
-    width: 307px;
+    width: 300px;
 height: 250px;
 border-radius: 5px;
 box-shadow: 1px 1px 1px 1px lightgray;
+margin-left: 20px;
 }
 #flag{
     padding-top: 40px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
+    text-align: center;
+}
+#flag1{
+
 }
 .VS{
-    text-align: center;
-    padding-left: 10px;    
+    padding: 10px;
+    padding-bottom: 10px;
+       
 }
 #team-name{
     padding-left: 50px;
