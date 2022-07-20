@@ -307,3 +307,39 @@ nav a:hover{
     padding-left: 260px; 
 }
 /*------- footer End----- */
+/* Media Quary  */
+@media only screen and (max-width: 688px) {
+    .container {
+        width: 75%;
+        height: 100%;
+    }
+    .headline
+    .headline-text
+    .button-text
+    .button-watch-now {
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    .headline
+    .headline-text
+    .button-text
+    .button-watch-now {
+        flex-direction: column;
+    }
+    .box-together {
+     width: 75%;
+     height: 100%;        
+    }
+    .transfer-box1
+    .transfer-box2
+    .transfer-box3  {
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .transfer-box1
+    .transfer-box2
+    .transfer-box3 {
+    flex-direction: column;
+   }
+   footer{
+    grid-template-columns: repeat(1 , 1fr);
+   }    
+}
