@@ -50,8 +50,21 @@ body{
     background-color: #161616;
     border-radius: 10px;
 }
+.Match{
+    font-weight: 600;
+    font-size: 14px;
+}
+.Group{
+    font-weight: 600;
+    font-size: 14px;
+}
+.Blog{
+    font-weight: 600;
+font-size: 14px;
+padding-bottom: 40px;
+}
 .container2{
-    width: 312px;
+    width: 307px;
     height: 312px;
     background-color: #161616;
     border-radius: 10px;
@@ -152,10 +165,11 @@ height: 50px;
 }
 .transfer{
     width: 312px;
-    height: 362px;
+    height: 360px;
     box-shadow: 1px 1px 1px 1px lightgray;
     padding-bottom: 20px;
     border-radius: 9px;
+    
 }
 .fa-clock{
     padding-left: 41px;
@@ -179,15 +193,13 @@ padding-left: 30px;
 .transfer-box1{
     display: flex;
     justify-content: space-evenly;
-    
     margin-left: 400px;
     margin-right: 400px;
-    margin-top: -200px;
+    margin-top: -340px;
 }
 .transfer-box2{
     display: flex;
     justify-content: space-evenly;
-
     margin-right: 400px;
     margin-left: 800px;
     margin-top: 40px;
@@ -204,4 +216,39 @@ padding-left: 30px;
 }
 .box-together{
  display: flex;
+ margin: 2.5px;
+}
+footer{
+    margin-top: 150px;
+    width: 1335px;
+   background-color: #161616;
+    height: 400px;
+    padding-left: 5px;
+}
+.footer-heading{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 130px;
+    font-weight: 600;
+font-size: 40px;
+}
+hr{
+    color: #B9B9B9;
+    width: 85%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-top: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #B9B9B9;
+    margin: 15px;
+    font-weight: 500;
+}
+.footer-icon{
+    padding-left: 260px;
+    
 }
