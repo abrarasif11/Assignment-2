@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* Banner */
 .container{
     width: 1100px;
     height: 646px;
@@ -11,6 +12,7 @@ body{
     margin-right: 140px;
     
 }
+/* Banner Headline */
 .headline{
     color: #FFFFFF;
     font-weight: 600;
@@ -19,6 +21,7 @@ body{
     padding-left: 50px;
     width: 45%;
 }
+/* Banner Text */
 .headline-text{
     color: #FFFFFF;
     font-weight: 400;
@@ -26,6 +29,7 @@ body{
     padding-left: 50px;
     width: 37%;
 }
+/* button Section */
 .button-text{
     padding-left: 50px;
 }
@@ -39,6 +43,7 @@ body{
 .button-watch-now:hover{
     text-decoration: underline;
 }
+/* Banner Pic */
 .player-pic{
     position: absolute;
     width: 425px;
@@ -47,6 +52,9 @@ body{
     top: 83px;
 
 }
+/* Banner End */
+
+/* Black Box Info */
 .box1{
     width: 272px;
     height: 272px;
@@ -66,6 +74,7 @@ body{
 font-size: 14px;
 padding-bottom: 40px;
 }
+/* Black Box Overall Items */
 .container2{
     width: 312px;
     height: 312px;
@@ -74,7 +83,8 @@ padding-bottom: 40px;
     padding-top: 10px;
     padding-bottom: 20px;
     margin-top: 70px;
-    margin-left: 50px;
+    margin-right: 50px;
+    margin-left: 30px;
  }
  .box{
     width: 50px;
@@ -93,9 +103,6 @@ padding-bottom: 10px;
 #up{
     text-decoration: none;
     color: black;
-}
-#up:hover{
-    text-decoration: underline;
 }
  .item2{
     margin-left: 40px;
@@ -156,45 +163,62 @@ height: 50px;
     width: 140px;
     border-radius: 10px;
 }
+
 #grp{
     text-decoration: none;
     color: #161616;
 }
+ 
+/* ----- Hover Items---- */
+
+#up:hover{
+    text-decoration: underline;
+}
 #grp:hover{
 text-decoration: underline;
-}
-#blg{
-    text-decoration: none;
-    color: #FFFFFF;
 }
 #blg:hover{
     text-decoration: underline;
 }
 
+#blg{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 #chat-icon{
     padding-left: 70px;
     padding-top: 20px;
 }
+/*Black Box Info End */
+
+/* Transfer Box Start */
 .transfer{
-    width: 312px;
+    width: 255px;
     height: 360px;
     box-shadow: 1px 1px 1px 1px lightgray;
     padding-bottom: 20px;
     border-radius: 9px;
+
+}
+.transfer-pic{
+    width: 256px;
+    height: 175px;
 }
 .transfer1{
-    width: 312px;
-    height: 360px;
-    box-shadow: 1px 1px 1px 1px lightgray;
-    padding-bottom: 20px;
-    border-radius: 9px; 
-}
-.transfer2{
-    width: 312px;
+    width: 255px;
     height: 360px;
     box-shadow: 1px 1px 1px 1px lightgray;
     padding-bottom: 20px;
     border-radius: 9px;  
+   margin-left: 30px;
+}
+.transfer2{
+    width: 255px;
+    height: 360px;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    padding-bottom: 20px;
+    border-radius: 9px;
+    margin-left: 30px; 
 }
 .fa-clock{
     padding-left: 41px;
@@ -225,8 +249,8 @@ padding-left: 30px;
 .transfer-box2{
     display: flex;
     justify-content: space-evenly;
-    margin-right: 400px;
-    margin-left: 800px;
+    margin-right: 200px;
+    margin-left: 500px;
     margin-top: 40px;
 
 
@@ -234,8 +258,8 @@ padding-left: 30px;
 .transfer-box3{
     display: flex;
     justify-content: space-evenly;
-    margin-left: 800px;
-    margin-right: 400px;
+    margin-left: 500px;
+    margin-right: 200px;
     margin-top: 40px;
     
 }
@@ -243,6 +267,9 @@ padding-left: 30px;
  display: flex;
  margin: 2.5px;
 }
+/* transfer Box End */
+
+/* Footer Start */
 footer{
     margin-top: 150px;
     width: 1335px;
@@ -279,3 +306,4 @@ nav a:hover{
 .footer-icon{
     padding-left: 260px; 
 }
+/*------- footer End----- */
